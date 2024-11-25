@@ -1,5 +1,5 @@
 {% set name = "mdbook" %}
-{% set version = "0.4.42" %}
+{% set version = "0.4.43" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/rust-lang/mdbook/archive/v{{ version }}.tar.gz
-  sha256: cf1c7c293fd1ad3d51fe13cd385303df8b30004ba5edcc35dd8dbd23d670d528
+  sha256: 7213c006d78dafa0d7a893bdb8fd3814bbf4d6794ffb97822038185364b73f77
 
 build:
   number: 0
