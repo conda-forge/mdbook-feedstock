@@ -1,5 +1,5 @@
 context:
-  version: "0.4.48"
+  version: "0.4.49"
 
 package:
   name: mdbook
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/rust-lang/mdbook/archive/v${{ version }}.tar.gz
-  sha256: 65021ceca2a2f5a1ceda243953ce764bf34c466b7a83db38e167a2b7d1131dcf
+  sha256: 103a1cae7a8036c81dfce14e8e421ba6d983acc708b52ebbffc98ca544419906
 
 build:
   number: 0
